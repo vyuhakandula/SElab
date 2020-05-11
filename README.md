@@ -81,13 +81,7 @@ statement.executeUpdate("commit");
 
 
 }
-catch (SQLException connectException)
-{
-System.out.println(connectException.getMessage());
-System.out.println(connectException.getSQLState());
-System.out.println(connectException.getErrorCode());
-System.exit(1);
-}
+
  }
 private void displaySQLErrors(SQLException e)
 {
