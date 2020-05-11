@@ -47,11 +47,7 @@ try
 {
 Class.forName("oracle.jdbc.driver.OracleDriver");
 }
-catch (Exception e)
-{
-System.err.println("Unable to find and load driver");
-System.exit(1);
-}
+
 connectToDB();
 
 this.frame=frame;
