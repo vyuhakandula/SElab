@@ -75,12 +75,6 @@ this.p=p;
 
 public void connectToDB()
  {
-try {
-
-
-Connection con=DriverManager.getConnection(
-"jdbc:oracle:thin:@localhost:1521:xe","project","project");
-
 
 statement=con.createStatement();
 statement.executeUpdate("commit");
