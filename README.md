@@ -1,10 +1,7 @@
 # SElab
 
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.FlowLayout;
-import java.awt.Font;
+
 import java.awt.GridLayout;
 import java.awt.Label;
 import java.awt.List;
